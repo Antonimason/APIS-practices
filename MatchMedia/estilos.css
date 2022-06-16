@@ -1,0 +1,27 @@
+body{
+    color: #222;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.caja {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    background: #48e;
+    font-size: 40px;
+    color: #fff;
+}
+
+.caja span, .responsive-caja span{
+    margin: auto;
+}
+
+.responsive-caja{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background: #333;
+    color: #fff;
+    font-size: 40px;
+}
